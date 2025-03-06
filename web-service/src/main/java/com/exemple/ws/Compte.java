@@ -11,7 +11,11 @@ public class Compte {
     private Long code;
     @XmlElement
     private double solde;
-    @XmlTransient
+    //@XmlTransient
+    /**
+     * The transient annotation is used to make this element not included in the result
+     * If no annotation is choosed by default it's @XMLElement
+     */
     private Date dateCreation;
     private boolean active;
 
