@@ -4,7 +4,6 @@ import com.exemple.ws.BanqueService;
 import com.exemple.ws.BanqueWS;
 import com.exemple.ws.Compte;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ClientWS {
