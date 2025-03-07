@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listCompte>
+    <compte id="1">
+        <dateCreation>2025-03-07T23:31:28.561Z</dateCreation>
+        <solde>9000.0</solde>
+    </compte>
+    <compte id="2">
+        <dateCreation>2025-03-07T23:31:28.561Z</dateCreation>
+        <solde>8000.0</solde>
+    </compte>
+</listCompte>
