@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="compte" type="compte"></xsd:element>
+    <xsd:element name="listCompte" >
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="compte" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+<xsd:complexType name="compte">
+    <xsd:sequence>
+        <xsd:element name="dateCreation" type="xsd:dateTime"/>
+        <xsd:element name="solde" type="xsd:double"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:long"/>
+</xsd:complexType>
+
+</xsd:schema>
